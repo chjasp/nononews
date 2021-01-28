@@ -1,0 +1,14 @@
+numpy
+
+fastapi
+uvicorn
+pydantic
+
+pandas
+keras
+tensorflow
+pandas
+gensim
+python-multipart
+pytest
+requests
