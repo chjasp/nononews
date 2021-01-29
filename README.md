@@ -25,4 +25,4 @@ Example 3:
 
 ## Possible improvements
 * The NYT API restricts access to a rather small amount of headlines in the free tier. For the final skill it would certainly make sense to have access to >200 articles a day to fully take advantage of the concept of semantic-retrieval.
-* Though working reasonably well in the prototype, the service's precision could certainly be significantly improved by moving from 30 embedding dimensions to >100.
+* Though working reasonably well in the prototype, the application's precision could certainly be significantly improved by moving from 30 embedding dimensions to >100.
