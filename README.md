@@ -1,4 +1,4 @@
-# No Noise News (NoNoNews)
+# no noise News (NoNoNews)
 
 ## Idea
 The NoNoNews-skill let's a user define a set of words that are representative of his/her interests. The app then draws upon the most recent headlines from the NYT News API to serve the headlines that are semantically closest to the defined set of words. Additionally, the order in which the headlines are communicated to the user can be set to positive -> negative vice versa. 
