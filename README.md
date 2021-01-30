@@ -10,7 +10,8 @@ The Keras model used for sentiment analysis as well as the word embeddings have 
 * computing the cosine similarity, 
 * extracting the headlines most similar to the query, 
 * ordering the headlines by sentiment and 
-* returning them to the user takes less than 2 seconds. 
+* returning them to the user 
+takes less than 2 seconds. 
 
 Pretrained word embeddings of slightly larger size (e.g. GloVe 6B 50d) generally performed worse than the one trained on twitter data.
 
