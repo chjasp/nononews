@@ -7,10 +7,12 @@ Given that a user is interested in the news that have the most relevance to his/
 
 ## Models & Deployment 
 The Keras model used for sentiment analysis as well as the word embeddings have been trained on a dataset of >1.6m tagged Tweets (training notebook based on: https://www.kaggle.com/paoloripamonti/twitter-sentiment-analysis). Both models are rather leightweight and can therefore be deployed to 2 separate (free tier) AWS EC2 instances (thus the split semantic_analyzer, sentiment_analyzer). In addition to the little cost, the models' small size yields the benefit of fast inference: To answer a request, the process of 
+
 * computing the cosine similarity, 
 * extracting the headlines most similar to the query, 
 * ordering the headlines by sentiment and 
 * returning them to the user
+
 takes less than 2 seconds. 
 
 Pretrained word embeddings of slightly larger size (e.g. GloVe 6B 50d) generally performed worse than the one trained on twitter data.
