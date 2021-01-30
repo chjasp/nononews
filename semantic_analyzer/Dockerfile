@@ -7,10 +7,10 @@ RUN apt-get update \
     && apt-get install python3-dev python3-pip -y \
     && pip3 install -r requirements.txt
 
-ENV PYTHONPATH=/articler
-WORKDIR /articler
+ENV PYTHONPATH=/api
+WORKDIR /api
 
 EXPOSE 8000
 
 ENTRYPOINT ["uvicorn"]
-CMD ["articler.main:app", "--host", "0.0.0.0"]
+CMD ["api.main:app", "--host", "0.0.0.0"]
